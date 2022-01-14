@@ -1,0 +1,10 @@
+.sidebar {
+  background-color: saddlebrown;
+  min-height: 90vh;
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    display: none;
+  }
+}

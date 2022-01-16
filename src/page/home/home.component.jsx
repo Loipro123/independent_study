@@ -1,5 +1,6 @@
 import React from 'react';
 import Announce from '../../main_component/announce/annouce.component';
+import Menu from '../../main_component/menu/menu.component';
 import SideBar from '../../main_component/sidebar/sidebar.component';
 import './home.styles.scss';
  
@@ -8,7 +9,7 @@ const Home = () => {
        <Announce/>
        <div className='row home_contain'>
            <SideBar/>
-           <div className='col-lg-10 home'></div>
+           <Menu/>
        </div>
     </div>)
 }

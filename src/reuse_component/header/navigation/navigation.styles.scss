@@ -1,4 +1,27 @@
 .navigation {
-  background-color: indigo;
   height: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  .navigation_item {
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .navigation_item1 {
+    position: relative;
+  }
+  .shopping_car {
+    fill: rgb(214, 168, 182);
+    height: 35px;
+    width: 35px;
+    margin-top: -0.7rem;
+  }
+  .num_car {
+    font-size: 1rem;
+    position: absolute;
+    top: 19px;
+    left: 28px;
+  }
 }

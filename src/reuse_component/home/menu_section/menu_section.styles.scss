@@ -1,0 +1,11 @@
+.menu_section {
+  .menu_items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section_title {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    padding-bottom: 1rem;
+  }
+}

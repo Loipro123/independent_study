@@ -1,9 +1,22 @@
 .announce {
-  height: 80px;
-  background-color: lightcoral;
+  height: 60px;
+  background-color: rgb(247, 247, 247);
+  border-bottom: 1px solid rgb(229, 229, 229);
   position: fixed;
   top: 80px;
   right: 0px;
   width: 100vw;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  .announce_text {
+    text-align: center;
+    text-decoration: underline;
+    min-width: 35%;
+  }
+  .arrow_item {
+    margin: 1rem;
+    cursor: pointer;
+  }
 }

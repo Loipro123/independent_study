@@ -1,4 +1,12 @@
 .logo {
-  background-color: hotpink;
-  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  .logo_img {
+    fill: rgb(214, 168, 182);
+    margin-left: 4rem;
+    height: 50px;
+    width: 50px;
+  }
 }

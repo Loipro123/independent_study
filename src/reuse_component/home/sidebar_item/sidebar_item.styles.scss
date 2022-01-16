@@ -1,0 +1,17 @@
+.sidebar_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  .item_title {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .item_sub {
+    text-decoration: none;
+    color: #878787;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.3rem;
+    cursor: pointer;
+  }
+}

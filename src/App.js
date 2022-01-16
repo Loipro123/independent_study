@@ -12,16 +12,16 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <div className='app_body'>
-      <Switch>
-              <Route exact path="/productDetail" component={ProductDetail} />
-              <Route exact path="/setting" component={Setting} />
-              <Route exact path="/product" component={Product} />
-              <Route exact path="/checkout" component={CheckOut} />
-              <Route exact path="/" component={Home} />
-        </Switch>  
-        <Footer />
+      <div className="app_body">
+        <Switch>
+          <Route exact path="/productDetail" component={ProductDetail} />
+          <Route exact path="/setting" component={Setting} />
+          <Route exact path="/product" component={Product} />
+          <Route exact path="/checkout" component={CheckOut} />
+          <Route exact path="/" component={Home} />
+        </Switch>
       </div>
+      <Footer />
     </div>
   );
 };

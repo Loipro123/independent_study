@@ -1,0 +1,14 @@
+.footer_privacy {
+  display: flex;
+  padding: 0;
+  font-size: 1.2rem;
+  .privacy_item {
+    padding: 2px 12px;
+    border-left: 1px solid black;
+    cursor: pointer;
+  }
+  .privacy_item1 {
+    padding: 2px 12px 2px 0px;
+    cursor: pointer;
+  }
+}

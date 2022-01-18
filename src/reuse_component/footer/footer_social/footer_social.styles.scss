@@ -1,0 +1,22 @@
+.footer_social {
+  display: flex;
+  padding: 2rem 0;
+  .social-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+
+    .fa {
+      font-size: 20px;
+      color: white;
+      border: none;
+
+      cursor: pointer;
+    }
+  }
+}
